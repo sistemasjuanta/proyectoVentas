@@ -5,6 +5,9 @@
  */
 package proyectoventas;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 /**
  *
  * @author Juanta
@@ -18,4 +21,19 @@ public class Proyectoventas {
         // TODO code application logic here
     }
     
-}
+}/*
+  Thread tiempo = Thread.currentThread();
+              //  while(tiempo== hilo){
+                       Date now = new Date(System.currentTimeMillis());
+                SimpleDateFormat date = new SimpleDateFormat("dd-MM-yyyy");
+                SimpleDateFormat hour = new SimpleDateFormat("HH:mm:ss");
+                
+              // bfecha.setText(date.format(now));
+               //bhora.setText(hour.format(now));
+                System.out.println(date.format(now));
+                System.out.println(hour.format(now));
+                System.out.println(now);
+                 
+*/
+                        
+              //  }
